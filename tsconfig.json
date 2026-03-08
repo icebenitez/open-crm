@@ -7,31 +7,40 @@
       "path": "./apps/api"
     },
     {
-      "path": "./apps/shop-e2e"
-    },
-    {
-      "path": "./apps/shop"
-    },
-    {
       "path": "./libs/api/products"
     },
     {
       "path": "./libs/shared/models"
     },
     {
-      "path": "./libs/shop/data"
-    },
-    {
-      "path": "./libs/shop/feature-product-detail"
-    },
-    {
-      "path": "./libs/shop/feature-products"
-    },
-    {
-      "path": "./libs/shop/shared-ui"
-    },
-    {
       "path": "./libs/shared/test-utils"
+    },
+    {
+      "path": "./libs/crm/feature-product-detail"
+    },
+    {
+      "path": "./libs/crm/feature-accounts"
+    },
+    {
+      "path": "./libs/crm/feature-contacts"
+    },
+    {
+      "path": "./libs/crm/feature-products"
+    },
+    {
+      "path": "./libs/crm/feature-deals"
+    },
+    {
+      "path": "./libs/crm/shared-ui"
+    },
+    {
+      "path": "./libs/crm/data"
+    },
+    {
+      "path": "./apps/crm-e2e"
+    },
+    {
+      "path": "./apps/crm"
     }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "name": "@org/crm",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "projectType": "application",
+    "tags": [
+      "scope:crm"
+    ],
+    "targets": {
+      "serve": {
+        "dependsOn": [
+          "@org/api:serve"
+        ]
+      },
+      "dev": {
+        "dependsOn": [
+          "@org/api:serve"
+        ]
+      },
+      "preview": {
+        "dependsOn": [
+          "build",
+          "@org/api:serve"
+        ]
+      }
+    }
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/crm-data": "*",
+    "@org/crm-feature-product-detail": "*",
+    "@org/crm-feature-products": "*",
+    "@org/crm-shared-ui": "*"
+  }
+}
