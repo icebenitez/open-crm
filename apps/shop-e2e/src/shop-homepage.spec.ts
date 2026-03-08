@@ -7,7 +7,7 @@ test.describe('Shop Homepage', () => {
 
   test('should display the main header', async ({ page }) => {
     const header = page.locator('h1').first();
-    await expect(header).toContainText('Nx Shop Demo');
+    await expect(header).toContainText('Official Shop Demo');
   });
 
   test('should redirect to products page by default', async ({ page }) => {
